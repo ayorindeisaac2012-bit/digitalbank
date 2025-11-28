@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    display: flex;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    padding: 15px;
+ 
+}
+.line{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: black;
+    font-size:  15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  
+}
+.dig1{
+    margin-left: 4rem;
+}
+button{
+    background-color:hsl(136, 64%, 51%);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: x-small;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(220, 16%, 96%);
+    gap: 20px;
+}
+.head{
+    color: hsl(233, 26%, 24%);
+    width: 17vw;
+    font-size: xx-large;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.take{
+    font-size: large;
+    color: hsl(233, 8%, 62%);
+    width: 20vw;
+}
+.dem{
+    background-image: url(/images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top 30rem;
+    background-size: cover;
+}
+.phone{
+    height: 80vh;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color:hsl(0, 0%, 51%) ;
+}
+.bank{
+    display: flex;
+    flex-direction: column;
+    padding-right: 32rem;
+    gap: 10px;
+}
+.why{
+    color: hsl(233, 26%, 24%);
+}
+.we{
+    width: 40vw;
+}
+.lol{
+    display: flex;
+
+}
+.banking{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+.hand{
+    height: 9vh;
+    width: 4vw;
+}
+.online{
+    color: hsl(233, 26%, 24%);
+    
+}
+.our{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: lighter;
+    color: hsl(233, 8%, 62%);
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.last{
+    color: hsl(233, 26%, 24%);
+   padding-left: 6rem;
+
+}
+.life{
+    display: flex;
+    gap: 20px;
+    padding-left: 6rem;
+}
+.money{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    gap: 10px;
+}
+.milo{
+    height: 18vh;
+    border-radius: 4px 4px 0px 0px;
+}
+.small{
+    font-size: small;
+    color: hsl(233, 8%, 62%);
+}
+.any{
+    width: 15vw;
+    font-weight: lighter;
+}
+.is{
+    color: hsl(233, 8%, 62%);
+    width: 16vw;
+}
+footer{
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.me{
+    height: 2vh;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.car{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.pat{
+    display: none;
+}
+.yan{
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    .line{
+        display: none;
+    }
+    .dig1{
+        display: none;
+    }
+    .pat{
+        display: flex;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .dem{
+        display: none;
+    }
+    .yan{
+        display: flex;
+        background-image: url(/images/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+       
+    }
+    .fam{
+        height: 60vh;
+    }
+    .body{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .head{
+        width: 70vw;
+    }
+    .take{
+        width: 90vw;
+        text-align: center;
+    }
+    button{
+        width: 50vw;
+        text-align: center;
+    }
+    .bank{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 32rem;
+        text-align: center;
+    }
+    .section3{
+        padding: 20px;
+        margin-top: 2rem;
+    }
+    .we{
+        width: 85vw;
+    }
+    .why{
+        width: 50vw;
+    }
+    .lol{
+        display: flex;
+        flex-direction: column;
+    }
+    .banking{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .hand{
+        width: 15vw;
+        height: 8vh;
+    }
+    .our{
+        width: 90vw;
+    }
+    .section4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .life{
+        display: flex;
+        flex-direction: column;
+        padding-right: 6rem;
+        
+    }
+    .last{
+        padding-right: 6rem;
+        
+    }
+    .any{
+        width: 75vw;
+    }
+    .milo{
+        width: 70vw;
+    }
+    .is{
+        width: 70vw;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .in{
+        gap: 20px;
+    }
+    .bag{
+        overflow: hidden;
+    }
+}
